@@ -1,3 +1,7 @@
+From: Toke Høiland-Jørgensen <toke@toke.dk>
+Date: Wed, 06 Nov 2024 13:41:44 +0100
+Subject: ath9k: Add RX inactivity detection and reset chip when it occurs
+
 diff --git a/package/kernel/mac80211/patches/ath9k/554-ath9k_add_rx_inactivity_detection_and_reset_chip_when_it_occurs.patch b/package/kernel/mac80211/patches/ath9k/554-ath9k_add_rx_inactivity_detection_and_reset_chip_when_it_occurs.patch
 new file mode 100644
 index 0000000000..e6699d99f7
